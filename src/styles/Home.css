@@ -1,0 +1,26 @@
+.col-image__first {
+  height: 75vh;
+  overflow: hidden;
+}
+.col-image__first img {
+  height: inherit;
+  filter: blur(2px);
+}
+.col-3 {
+  padding: 0;
+}
+.main-div {
+  text-align: center;
+  color: red;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+.animated-text {
+  font-size: 130px;
+}
+.third h1 {
+  font-size: 5rem;
+  letter-spacing: 16px;
+}

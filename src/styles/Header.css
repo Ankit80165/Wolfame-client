@@ -1,0 +1,9 @@
+.nav-link__red {
+  color: #ff0000;
+}
+.nav-link__red:hover {
+  color: white;
+}
+.nav-link {
+  letter-spacing: 3px;
+}
