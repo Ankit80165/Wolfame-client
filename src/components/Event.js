@@ -28,7 +28,7 @@ const Event = ({ event }) => {
               <i className="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
             </time>
           </div>
-          <div className="postcard__preview-txt">{renderRules()}</div>
+          <div className="postcard__preview-txt"></div>
           <ul className="postcard__tagbox">
             <li className="tag__item">
               <Link to={`/events/${event.eventName.toLowerCase()}`}>

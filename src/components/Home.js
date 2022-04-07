@@ -1,6 +1,7 @@
 import React from "react";
 import { useSpring, animated } from "react-spring";
 import AnimatedText from "react-animated-text-content";
+// Component imports
 // CSS imports
 import "../styles/Home.css";
 
@@ -11,25 +12,17 @@ const Home = () => {
     delay: 1000,
   });
   return (
-    <div>
-      <div className="row">
-        <div className="col-3">
-          <div className="col-image__first">
-            <img alt="wolf" src="wolf-home-half.png" className="float-right" />
-          </div>
-        </div>
-        <div className="col-6 main-div">
-          <div className="first">
-            <animated.h1 style={props}>WOLFENDEN HALL</animated.h1>
-          </div>
-          <div className="second">
-            <h4>Presents</h4>
-          </div>
+    <React.Fragment>
+      <div className="row-outer">
+        <div className="home-main-div">
+          <h1 className="name">WOLFENDEN HALL</h1>
+          <h3 className="presents">Presents</h3>
           <div className="third">
             <AnimatedText
               type="chars"
               interval={0.04}
               duration={0.8}
+              tag="h1"
               animation={{
                 y: "100px",
                 ease: "ease",
@@ -39,57 +32,64 @@ const Home = () => {
             >
               WOLFAME
             </AnimatedText>
+            <AnimatedText
+              type="words"
+              tag="h3"
+              animationType="throw"
+              interval={0.1}
+              className="animated-h3"
+            >
+              14th, 15th And 16th April, 2022
+            </AnimatedText>
           </div>
         </div>
-        <div className="col-3">
-          <div className="col-image__first">
-            <img alt="wolf" src="skull-home.png" className="float-left" />
+      </div>
+      <div className="container-fluid next-content-holder">
+        <h1 className="hall">ABOUT WOLFENDEN HALL</h1>
+        <div className="row about-hall-outer">
+          <div className="col-md-4 image-of-hall">
+            <img src={"imgs/wolfenden-hall.jpg"} alt="hall" />
+          </div>
+          <div className="col-md-8 about-hall">
+            <p>
+              The Boarders are called Wolves, jokingly. This is the Hall, most
+              glamourous, where the most extrovert would go.It is not the Hostel
+              for the studious type! People who had left a mark or wanted to
+              make a mark preferred this hostel. It has an aura about it an is
+              located right across the Oval ground. It used to be an expensive
+              Hostel, so far as food bills are concerned. During College
+              Re-unions, one could find the whole front of the Hostel would get
+              illuminated with the colorful bulbs to look great from a
+              distance.Here, final and pre-final years' Students are allowed to
+              stay.
+            </p>
           </div>
         </div>
       </div>
-      <div className="row">
-        <div className="col-3"></div>
-        <div className="col-6">
-          <h3>ABOUT WOLFENDEN HALL</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta
-            venenatis interdum. Nunc pretium nunc id erat mollis sollicitudin.
-            In molestie quam eget purus mollis malesuada. Pellentesque a dolor
-            lacus. Fusce pretium sollicitudin lorem eu viverra. Sed faucibus
-            fringilla elementum. Duis aliquam enim id ultricies tristique. Sed
-            efficitur eu purus tempor gravida. Sed pulvinar vestibulum neque non
-            pulvinar. Class aptent taciti sociosqu ad litora torquent per
-            conubia nostra, per inceptos himenaeos. Curabitur lectus lorem,
-            tempus quis faucibus vitae, tincidunt vitae elit. Donec bibendum,
-            odio at posuere laoreet, ligula mi porta turpis, at varius turpis
-            dolor a dui. Morbi gravida diam sagittis eros sollicitudin, iaculis
-            blandit magna porta. Phasellus ornare risus felis, id congue mauris
-            posuere vel. Interdum et malesuada fames ac ante ipsum primis in
-            faucibus. Praesent dignissim cursus lorem non facilisis. Vestibulum
-            id neque turpis. Ut quis cursus nulla. Fusce elementum pretium
-            libero rhoncus hendrerit. Aliquam id est dictum, porttitor orci
-            quis, suscipit dolor.
-          </p>
+      <div className="container-fluid last-content-holder">
+        <h1 className="wolfame">ABOUT WOLFAME</h1>
+        <div className="row about-hall-outer">
+          <div className="col-md-8 about-wolfame">
+            <p>
+              The Boarders are called Wolves, jokingly. This is the Hall, most
+              glamourous, where the most extrovert would go.It is not the Hostel
+              for the studious type! People who had left a mark or wanted to
+              make a mark preferred this hostel. It has an aura about it an is
+              located right across the Oval ground. It used to be an expensive
+              Hostel, so far as food bills are concerned. During College
+              Re-unions, one could find the whole front of the Hostel would get
+              illuminated with the colorful bulbs to look great from a
+              distance.Here, final and pre-final years' Students are allowed to
+              stay.
+            </p>
+            <button>Read More about Wolfame</button>
+          </div>
+          <div className="col-md-4 image-of-wolfame">
+            <img src={"imgs/wolfenden-hall.jpg"} alt="hall" />
+          </div>
         </div>
-        <div className="col-3"></div>
       </div>
-      <div className="row">
-        <div className="col-3"></div>
-        <div className="col-6">
-          <h3>ABOUT WOLFAME</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta
-            venenatis interdum. Nunc pretium nunc id erat mollis sollicitudin.
-            In molestie quam eget purus mollis malesuada. Pellentesque a dolor
-            lacus. Fusce pretium sollicitudin lorem eu viverra. Sed faucibus
-            fringilla elementum. Duis aliquam enim id ultricies tristique. Sed
-            efficitur eu purus tempor gravida. Sed pulvinar vestibulum neque non
-            pulvinar.
-          </p>
-        </div>
-        <div className="col-3"></div>
-      </div>
-    </div>
+    </React.Fragment>
   );
 };
 export default Home;

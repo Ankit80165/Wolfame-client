@@ -60,7 +60,11 @@ class Events extends React.Component {
     });
   }
   render() {
-    return <div className="container">{this.renderEvents()}</div>;
+    return (
+      <div className="container" style={{ margin: "0 auto" }}>
+        {this.renderEvents()}
+      </div>
+    );
   }
 }
 

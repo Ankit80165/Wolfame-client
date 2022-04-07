@@ -9,7 +9,7 @@ import EventDetails from "./EventDetails";
 
 const App = () => {
   return (
-    <div className="container-fluid">
+    <div>
       <BrowserRouter>
         <Header />
         <Route exact path="/">

@@ -41,7 +41,7 @@ class Contacts extends React.Component {
   }
   render() {
     return (
-      <div className="container">
+      <div className="container" style={{ margin: "0 auto" }}>
         <div className="wrapper">{this.renderItems()}</div>
       </div>
     );

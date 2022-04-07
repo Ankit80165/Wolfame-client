@@ -7,7 +7,7 @@ class Header extends React.Component {
   render() {
     return (
       <nav className="navbar navbar-expand-sm">
-        <div className="container">
+        <div className="container" style={{ margin: "0 auto" }}>
           <button
             className="navbar-toggler"
             type="button"

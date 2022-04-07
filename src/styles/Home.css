@@ -1,26 +1,101 @@
-.col-image__first {
-  height: 75vh;
-  overflow: hidden;
+/* Responsiveness */
+/* NEWLY DESIGNED */
+@font-face {
+  src: url("../../public/fonts/Tales\ of\ Scare\ FX.ttf");
+  font-family: tales-of-scare;
 }
-.col-image__first img {
-  height: inherit;
-  filter: blur(2px);
+@font-face {
+  font-family: zombie;
+  src: url("../../public/fonts/ZOMBIES\ REBORN.ttf");
 }
-.col-3 {
-  padding: 0;
+@font-face {
+  font-family: lethal-slime;
+  src: url("../../public/fonts/Lethal\ Slime.ttf");
 }
-.main-div {
+@font-face {
+  font-family: bates-shower;
+  src: url("../../public/fonts/Bates\ Shower.ttf");
+}
+.row-outer {
+  background-image: linear-gradient(black 14%, rgba(255, 0, 0, 0.297)),
+    url("../../public/skull.jpg");
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.home-main-div {
   text-align: center;
-  color: red;
+  height: 100vh;
+  /* padding: 5rem; */
   display: flex;
   flex-direction: column;
   /* align-items: center; */
   justify-content: center;
 }
-.animated-text {
-  font-size: 130px;
+h1,
+h3 {
+  font-size: 30px;
+  font-family: bates-shower;
+  margin-bottom: 4rem;
+  color: red;
 }
-.third h1 {
-  font-size: 5rem;
-  letter-spacing: 16px;
+.animated-h3 {
+  color: wheat;
+}
+.animated-text {
+  font-family: bates-shower;
+  font-size: 130px;
+  color: white;
+}
+
+.next-content-holder {
+  text-align: center;
+  background-color: red;
+  padding: 5rem;
+}
+.hall {
+  color: black;
+}
+.image-of-hall {
+  text-align: center;
+}
+.image-of-hall img {
+  height: 300px;
+  border-radius: 50%;
+  border: 4px solid black;
+}
+.about-hall {
+  text-align: left;
+  font-size: 1.25rem;
+  font-family: Lato;
+  letter-spacing: 2px;
+  color: wheat;
+}
+.about-hall-outer {
+  display: flex;
+  align-items: center;
+}
+.wolfame {
+  color: red;
+}
+.last-content-holder {
+  text-align: center;
+  padding: 5rem;
+  color: red;
+}
+.about-wolfame {
+  text-align: right;
+  color: red;
+  font-size: 1.25rem;
+  font-family: Lato;
+  letter-spacing: 2px;
+}
+
+.image-of-wolfame img {
+  height: 300px;
+  border-radius: 50%;
+  border: 4px solid red;
+}
+.image-of-wolfame {
+  text-align: center;
 }
