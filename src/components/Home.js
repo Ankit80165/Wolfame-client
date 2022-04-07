@@ -71,16 +71,14 @@ const Home = () => {
         <div className="row about-hall-outer">
           <div className="col-md-8 about-wolfame">
             <p>
-              The Boarders are called Wolves, jokingly. This is the Hall, most
-              glamourous, where the most extrovert would go.It is not the Hostel
-              for the studious type! People who had left a mark or wanted to
-              make a mark preferred this hostel. It has an aura about it an is
-              located right across the Oval ground. It used to be an expensive
-              Hostel, so far as food bills are concerned. During College
-              Re-unions, one could find the whole front of the Hostel would get
-              illuminated with the colorful bulbs to look great from a
-              distance.Here, final and pre-final years' Students are allowed to
-              stay.
+              Wolfame is the cultural sports festival organised by Wolfenden
+              Hall annually. The three-day long event involves a plethora of
+              sports activities, both indoor and outdoor, attended by
+              enthusiastic students willing to prove their mettle. After 4
+              years, the much anticipated festival has returned to reignite the
+              spark of competition among the students and will be witnessed by
+              more than 5000 people. It will commence on 14th April and will
+              continue till 16th April of 2022.
             </p>
             <button>Read More about Wolfame</button>
           </div>

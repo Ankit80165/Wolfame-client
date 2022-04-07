@@ -1,30 +1,68 @@
 const rules = {
-  cricket: {
-    rules: [
-      "The bowling of fast short pitched balls will be considered dangerous and unfair, if the umpire at the bowlers end considers that by repetition and taking into account that their length, height and direction they are likely to inflict physical injury on the striker irrespective of the protective equipment he may be wearing. The relative skill of the striker shall be taken into consideration.",
-      "A bowler shall be limited to two fast short pitched balls per over. A fast short pitched ball is defined as a ball which passes, or would have passed clearly above the shoulder of the striker standing upright at the crease. In the event of a bowler bowling more than two short fast pitched balls in an over the Association Approved umpire at the bowlers end shall call and signal “no ball” on each occasion.",
-      "Bowling of Dangerous and Unfair Non-pitching Deliveries",
-      "On artificial wickets, if the ball bowled hits the edge or wider than the edge of the prepared playing surface, the umpire at the bowler’s end shall call and signal “no ball”.",
-    ],
-    contacts: ["Ankit Majhi - 8016554262", "Saptarshi Mukerjee - 8016554263"],
+  badminton: {
+    rules: [],
+    contacts: [],
+    src: "imgs/events/badminton.jpg",
   },
-  football: {
-    rules: [
-      "The bowling of fast short pitched balls will be considered dangerous and unfair, if the umpire at the bowlers end considers that by repetition and taking into account that their length, height and direction they are likely to inflict physical injury on the striker irrespective of the protective equipment he may be wearing. The relative skill of the striker shall be taken into consideration.",
-      "A bowler shall be limited to two fast short pitched balls per over. A fast short pitched ball is defined as a ball which passes, or would have passed clearly above the shoulder of the striker standing upright at the crease. In the event of a bowler bowling more than two short fast pitched balls in an over the Association Approved umpire at the bowlers end shall call and signal “no ball” on each occasion.",
-      "Bowling of Dangerous and Unfair Non-pitching Deliveries",
-      "On artificial wickets, if the ball bowled hits the edge or wider than the edge of the prepared playing surface, the umpire at the bowler’s end shall call and signal “no ball”.",
-    ],
-    contacts: ["Ankit Majhi - 8016554262", "Saptarshi Mukerjee - 8016554263"],
+  basketball: {
+    rules: [],
+    contacts: [],
+    src: "../../public/imgs/events/basketball.jpg",
+  },
+  carrom: {
+    rules: [],
+    contacts: [],
+    src: "../../public/imgs/events/carrom.jpg",
+  },
+  chess: {
+    rules: [],
+    contacts: [],
+    src: "../../public/imgs/events/chess.jpg",
+  },
+  fifa: {
+    rules: [],
+    contacts: [],
+    src: "../../public/imgs/events/fifa.png",
+  },
+  futsal: {
+    rules: [],
+    contacts: [],
+    src: "../../public/imgs/events/futsal.jpg",
+  },
+  power_lifting: {
+    rules: [],
+    contacts: [],
+    src: "../../public/imgs/events/power-lifting.jpg",
+  },
+  short_pitch_cricket: {
+    rules: [],
+    contacts: [],
+    src: "../../public/imgs/events/short-pitch-cricket.jpg",
+  },
+  strong_man: {
+    rules: [],
+    contacts: [],
+    src: "../../public/imgs/events/strong-man.jpg",
+  },
+  table_tennis: {
+    rules: [],
+    contacts: [],
+    src: "../../public/imgs/events/table-tennis.jpg",
+  },
+  tug_of_war: {
+    rules: [],
+    contacts: [],
+    src: "../../public/imgs/events/tug_of_war.jpg",
+  },
+  valorant: {
+    rules: [],
+    contacts: [],
+    src: "../../public/imgs/events/valorant.jpg",
   },
   vollyball: {
-    rules: [
-      "The bowling of fast short pitched balls will be considered dangerous and unfair, if the umpire at the bowlers end considers that by repetition and taking into account that their length, height and direction they are likely to inflict physical injury on the striker irrespective of the protective equipment he may be wearing. The relative skill of the striker shall be taken into consideration.",
-      "A bowler shall be limited to two fast short pitched balls per over. A fast short pitched ball is defined as a ball which passes, or would have passed clearly above the shoulder of the striker standing upright at the crease. In the event of a bowler bowling more than two short fast pitched balls in an over the Association Approved umpire at the bowlers end shall call and signal “no ball” on each occasion.",
-      "Bowling of Dangerous and Unfair Non-pitching Deliveries",
-      "On artificial wickets, if the ball bowled hits the edge or wider than the edge of the prepared playing surface, the umpire at the bowler’s end shall call and signal “no ball”.",
-    ],
-    contacts: ["Ankit Majhi - 8016554262", "Saptarshi Mukerjee - 8016554263"],
+    rules: [],
+    contacts: [],
+    src: "../../public/imgs/events/vollyball.jpg",
   },
 };
 export default rules;

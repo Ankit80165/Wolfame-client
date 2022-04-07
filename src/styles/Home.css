@@ -50,7 +50,7 @@ h3 {
 
 .next-content-holder {
   text-align: center;
-  background-color: red;
+  background-color: rgba(255, 0, 0, 0.831);
   padding: 5rem;
 }
 .hall {
@@ -82,10 +82,11 @@ h3 {
   text-align: center;
   padding: 5rem;
   color: red;
+  background-color: rgba(0, 0, 0, 0.779);
 }
 .about-wolfame {
   text-align: right;
-  color: red;
+  color: white;
   font-size: 1.25rem;
   font-family: Lato;
   letter-spacing: 2px;
@@ -98,4 +99,149 @@ h3 {
 }
 .image-of-wolfame {
   text-align: center;
+}
+/* Responsiveness */
+@media screen and (max-width: 576px) {
+  .row-outer {
+    height: 80vh;
+  }
+  .home-main-div {
+    height: 80vh;
+  }
+  .image-of-hall img {
+    width: 200px;
+    height: 200px;
+  }
+  .image-of-wolfame {
+    margin-top: 1rem;
+  }
+  .image-of-wolfame img {
+    width: 200px;
+    height: 200px;
+  }
+  .about-hall {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .about-wolfame {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .next-content-holder {
+    padding: 1rem;
+    margin: 0 auto;
+  }
+  .animated-text {
+    font-size: 50px;
+  }
+  .last-content-holder {
+    padding: 1rem;
+  }
+  h1,
+  h3 {
+    font-size: 1rem;
+    font-family: bates-shower;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    color: red;
+  }
+  .animated-h3 {
+    margin-top: 2rem;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .row-outer {
+    height: 80vh;
+  }
+  .home-main-div {
+    height: 80vh;
+  }
+  .image-of-hall img {
+    width: 200px;
+    height: 200px;
+  }
+  .image-of-wolfame {
+    margin-top: 1rem;
+  }
+  .image-of-wolfame img {
+    width: 200px;
+    height: 200px;
+  }
+  .about-hall {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+  .about-wolfame {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+  .next-content-holder {
+    padding: 1rem;
+    margin: 0 auto;
+  }
+  .animated-text {
+    font-size: 80px;
+  }
+  .last-content-holder {
+    padding: 1rem;
+  }
+  h1,
+  h3 {
+    font-size: 1.5rem;
+    font-family: bates-shower;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    color: red;
+  }
+  .animated-h3 {
+    margin-top: 2rem;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  .row-outer {
+    height: 80vh;
+  }
+  .home-main-div {
+    height: 80vh;
+  }
+  .image-of-hall img {
+    width: 300px;
+    height: 300px;
+  }
+  .image-of-wolfame {
+    margin-top: 1rem;
+  }
+  .image-of-wolfame img {
+    width: 300px;
+    height: 300px;
+  }
+  .about-hall {
+    font-size: 1.25rem;
+    text-align: left;
+  }
+  .about-wolfame {
+    font-size: 1.25rem;
+    text-align: right;
+  }
+  .next-content-holder {
+    padding: 1rem;
+    margin: 0 auto;
+  }
+  .animated-text {
+    font-size: 120px;
+  }
+  .last-content-holder {
+    padding: 1rem;
+  }
+  h1,
+  h3 {
+    font-size: 1.75rem;
+    font-family: bates-shower;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    color: red;
+  }
+  .animated-h3 {
+    margin-top: 2rem;
+  }
 }

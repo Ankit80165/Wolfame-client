@@ -1,0 +1,33 @@
+.events-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 4rem 5vw;
+  padding: 0;
+  list-style-type: none;
+}
+.event-header {
+  text-align: center;
+  margin-top: 2.5rem;
+  margin-bottom: 5rem;
+}
+body {
+  background-image: linear-gradient(black 14%, rgba(255, 0, 0, 0.297)),
+    url("../../public/skull.jpg");
+  background-attachment: fixed;
+}
+/* @media only screen and (min-width: 981px) {
+  .wrapper {
+    padding: 0rem 5rem;
+  }
+} */
+@media only screen and (max-width: 981px) {
+  .events-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 680px) {
+  .events-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

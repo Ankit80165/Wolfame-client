@@ -7,7 +7,7 @@ class Header extends React.Component {
   render() {
     return (
       <nav className="navbar navbar-expand-sm">
-        <div className="container" style={{ margin: "0 auto" }}>
+        <div className="container-fluid">
           <button
             className="navbar-toggler"
             type="button"
@@ -38,6 +38,11 @@ class Header extends React.Component {
               <li className="nav-item m-4">
                 <Link className="nav-link nav-link__red" to="/contacts">
                   Contact
+                </Link>
+              </li>
+              <li className="nav-item m-4">
+                <Link className="nav-link nav-link__red" to="/leaderboard">
+                  LeaderBoard
                 </Link>
               </li>
             </ul>

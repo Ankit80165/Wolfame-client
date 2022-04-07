@@ -1,7 +1,7 @@
 .image-holder {
-  background-image: url("../../public/imgs/cricket.jpg");
+  background-image: url("../../public/imgs/events/short-pitch-cricket.jpg");
   background-image: linear-gradient(rgba(255, 0, 0, 0.297), black),
-    url("../../public/imgs/cricket.jpg");
+    url("../../public/imgs/events/short-pitch-cricket.jpg");
 
   background-position: center;
   background-size: 1500px;
@@ -55,26 +55,4 @@
   -ms-user-select: none;
   user-select: none;
   -webkit-tap-highlight-color: transparent;
-}
-
-button {
-  cursor: pointer;
-  font-size: 20px;
-  font-weight: bold;
-  color: white;
-  padding: 1rem;
-  background: rgb(214, 16, 16);
-  border: 2px solid black;
-  box-shadow: 5px 5px 0 black, -5px -5px 0 black, -5px 5px 0 black,
-    5px -5px 0 black;
-  transition: 500ms ease-in-out;
-}
-
-button:hover {
-  color: black;
-  box-shadow: 20px 5px 0 white, -20px -5px 0 white;
-}
-
-button:focus {
-  outline: none;
 }
