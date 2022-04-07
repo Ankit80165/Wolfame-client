@@ -1,16 +1,11 @@
 import React from "react";
-import { useSpring, animated } from "react-spring";
+// import { useSpring } from "react-spring";
 import AnimatedText from "react-animated-text-content";
 // Component imports
 // CSS imports
 import "../styles/Home.css";
 
 const Home = () => {
-  const props = useSpring({
-    to: { opacity: 1 },
-    from: { opacity: 0 },
-    delay: 1000,
-  });
   return (
     <React.Fragment>
       <div className="row-outer">
