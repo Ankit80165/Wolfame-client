@@ -2,7 +2,7 @@ const rules = {
   badminton: {
     rules: [],
     contacts: [],
-    src: "imgs/events/badminton.jpg",
+    src: "placeholder.png",
   },
   basketball: {
     rules: [],

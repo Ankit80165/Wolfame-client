@@ -16,8 +16,9 @@ class Header extends React.Component {
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            style={{ color: "white" }}
           >
-            <span className="navbar-toggler-icon"></span>
+            <i className="fas fa-bars" style={{ color: "red" }}></i>
           </button>
 
           <div className="collapse navbar-collapse"></div>

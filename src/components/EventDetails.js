@@ -7,6 +7,9 @@ import RULES from "../data/rules";
 
 const EventDetails = (props) => {
   const event = useParams();
+  const temp = event.name.replace(/_/g, " ");
+  const imageName = event.name.replace(/_/g, "-");
+  const showEventName = temp.toUpperCase();
   const imageSrc = RULES[event.name].src;
   console.log(imageSrc);
 
@@ -56,11 +59,10 @@ const EventDetails = (props) => {
     <div
       className="image-holder"
       style={{
-        backgroundImage: `linear-gradient(rgba(255, 0, 0, 0.297), black),
-    url(${imageSrc})`,
+        backgroundImage: `linear-gradient(rgba(255, 0, 0, 0.297), black),url(/imgs/events/${imageName}.jpg)`,
       }}
     >
-      <h1 className="event-header">{props.eventName}</h1>
+      <h1 className="event-header">{showEventName}</h1>
       <div className="row">
         <div className="container col-md-8 event-details rules">
           <h4>RULES</h4>

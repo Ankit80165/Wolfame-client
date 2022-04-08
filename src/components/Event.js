@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 // CSS imports
 import styles from "../styles/Event.module.css";
 const Event = ({ event }) => {
@@ -9,7 +11,13 @@ const Event = ({ event }) => {
   return (
     <li>
       <Link to="#" className={styles.card}>
-        <img src={event.eventImageLink} className={styles.card__image} alt="" />
+        <LazyLoadImage
+          src={event.eventImageLink}
+          className={styles.card__image}
+          alt={event.eventName}
+          effect="blur"
+          placeholderSrc={process.env.PUBLIC_URL + "/placeholder.png"}
+        />
         <div className={styles.card__overlay}>
           <div className={styles.card__header}>
             <svg

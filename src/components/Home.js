@@ -75,7 +75,12 @@ const Home = () => {
               more than 5000 people. It will commence on 14th April and will
               continue till 16th April of 2022.
             </p>
-            <button>Read More about Wolfame</button>
+            <a
+              style={{ color: "red", textDecoration: "underline" }}
+              href="https://drive.google.com/file/d/1SaCovWDK-46uOwgzfTe3jTJ8EtZiyPmC/view?usp=sharing"
+            >
+              Read More about Wolfame
+            </a>
           </div>
           <div className="col-md-4 image-of-wolfame">
             <img src={"imgs/wolfenden-hall.jpg"} alt="hall" />

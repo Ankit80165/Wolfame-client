@@ -3,22 +3,26 @@ import axios from "axios";
 // CSS imports
 import styles from "../styles/Leader-Board.module.css";
 class LeaderBoard extends React.Component {
-  state = { hallData: [], error: null };
+  state = { hallData: [], error: null, isLoading: true };
   componentDidMount() {
     axios
       .get("https://unkenny.herokuapp.com/leaderboard")
       .then((response) => {
-        console.log(response.data);
-        this.setState({ hallData: response.data, error: null });
+        this.setState({
+          hallData: response.data,
+          error: null,
+          isLoading: false,
+        });
       })
       .catch((err) => {
-        this.setState({ hallData: [], error: err.message });
+        this.setState({ hallData: [], error: err.message, isLoading: false });
       });
   }
   renderTableItems(hallData) {
+    console.log(hallData);
     return hallData.map((hall, index) => {
       return (
-        <React.Fragment>
+        <React.Fragment key={index}>
           <tr>
             <td>{hall["Hall/Hostel"]}</td>
             <td>{hall.Score}</td>
@@ -26,6 +30,17 @@ class LeaderBoard extends React.Component {
         </React.Fragment>
       );
     });
+  }
+  renderContent() {
+    if (this.state.isLoading) {
+      return (
+        <tr>
+          <td style={{ fontFamily: "Lato" }}>Loading...Please Wait...</td>
+        </tr>
+      );
+    } else {
+      return this.renderTableItems(this.state.hallData);
+    }
   }
   renderLeaderBoard() {
     if (this.state.error !== null) {
@@ -39,7 +54,7 @@ class LeaderBoard extends React.Component {
               <th>Points</th>
             </tr>
           </thead>
-          <tbody>{this.renderTableItems(this.state.hallData)}</tbody>
+          <tbody>{this.renderContent()}</tbody>
         </table>
       );
     }

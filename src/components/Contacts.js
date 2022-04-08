@@ -1,4 +1,5 @@
 import React from "react";
+
 // COmponents imports
 import ContactCard from "./ContactCard";
 // CSS imports
@@ -42,6 +43,7 @@ class Contacts extends React.Component {
   render() {
     return (
       <div className="container" style={{ margin: "0 auto", height: "100vh" }}>
+        <h1 className="contact-first__header">Our Team</h1>
         <div className="wrapper">{this.renderItems()}</div>
       </div>
     );

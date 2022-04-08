@@ -1,13 +1,14 @@
 .image-holder {
-  background-image: url("../../public/imgs/events/short-pitch-cricket.jpg");
+  /* background-image: url("../../public/imgs/events/short-pitch-cricket.jpg");
   background-image: linear-gradient(rgba(255, 0, 0, 0.297), black),
-    url("../../public/imgs/events/short-pitch-cricket.jpg");
-
+    url("../../public/imgs/events/short-pitch-cricket.jpg"); */
+  padding-top: 2.5rem;
   background-position: center;
   background-size: 1500px;
   background-repeat: no-repeat;
   padding: 3rem 1.5rem;
-  border-radius: 8px;
+  /* border-radius: 8px; */
+  height: 100vh;
 }
 .event-header {
   text-align: center;

@@ -1,16 +1,19 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 // CSS imports
 import "../styles/ContactCard.css";
 
 const ContactCard = ({ contact }) => {
   return (
     <div className="img-wrapper">
-      <img src={contact.image} alt={contact.name} />
-      <h2>
-        {contact.name}
-        <br></br>
-        {contact.phone}
-      </h2>
+      <LazyLoadImage
+        src={contact.image}
+        alt={contact.name}
+        effect="blur"
+        placeholderSrc={process.env.PUBLIC_URL + "/placeholder-user.png"}
+      />
+      <h2>{contact.name}</h2>
 
       <ul>
         <li>

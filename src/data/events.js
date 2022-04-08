@@ -73,7 +73,7 @@ const EVENTS = [
   },
   {
     eventName: "Fifa",
-    eventImageLink: "imgs/events/fifa.png",
+    eventImageLink: "imgs/events/fifa.jpg",
     entryFee: "50",
     teamSize: "1",
   },
