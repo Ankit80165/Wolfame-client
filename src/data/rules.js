@@ -35,7 +35,7 @@ const rules = {
   carrom: {
     rules: [
       'When placing the striker on the board to shoot, the striker must touch both "base lines".',
-      "the striker may not touch the diagonal arrow line. For 'back-shots' you may only use your thumb or the scissors technique.",
+      "The striker may not touch the diagonal arrow line. For 'back-shots' you may only use your thumb or the scissors technique.",
       "No part of your body, except your hand, may cross the imaginary diagonal line nor may your elbow protrude over the frame in front of you. Even your feet or knees may not leave leave your quadrant.",
       "Sinking the striker causes you one piece and your turn. But, if you sink a piece in the same shot then the two come up and you shoot again.",
       " After sinking the striker, your opponent places the due piece(s) within the center circle If you haven't sunk one yet, you owe one.",
@@ -89,8 +89,8 @@ const rules = {
       "In case of any dispute, the referee's decision will be final.",
     ],
     contacts: [
-      "ANINDA SEN - 8334051607",
-      "subhro sen - 7384949491",
+      "Aninda Sen - 8334051607",
+      "Subhro Sen - 7384949491",
       "Ritoban Bhattacharya - 8584922510",
       "Soumya Roy - 8777040468, 7003352263",
       "Ayan Kamar - 8001311609",
@@ -101,8 +101,37 @@ const rules = {
     src: "../../public/imgs/events/futsal.jpg",
   },
   power_lifting: {
-    rules: [],
-    contacts: [],
+    rules: [
+      `There will be 3 rounds in th is event.`,
+      `The participants will be given 1 attempt to make a successful squat in each round .`,
+      `The participants cannot increas the weight in the next round, until a successful squat is done.`,
+      `There will be 4 judges, who will decide whether Ihe squat was proper or not.`,
+      `A squat will be considered successfuI if atleast 3 out of thé 4 judges votes in its favour`,
+      `The participant shall be disqualified if he falls in all the rounds.`,
+      `The right technique for powerfifting squat is described below :- 
+        • You need to bend your knees and lower the body until the top surface of the leg (upper quad at 
+        the hip joint) is lower than the top of the knee.                 
+        • You need to have your knees locked at both the beginning and end of the movement.
+        • You cannot step forward or backward, or move your feet laterally while squatting — you can't lose 
+        your balance.
+        • You must listen to the referee's commands- 'SQUAT' and 'RACK' — to start and finish the squat 
+        respectively.
+        • You cannot touch your elbows or arms with your legs which deliberately supports the movement.
+        • You cannot 'double bounce' at the bottom (go up, down, then up again), or have any downward 
+        movement of the bar.`,
+
+      `Criteria for deciding the winners :-
+        • The sum of weights successfully lifted in all the '6' rounds (i.e. 3 rounds of deadlift and 3 rounds 
+        of squats) will be added and divided by the body weight of the lilter to calculate a ratio.    
+        • The participants will be awarded with the positions according to this 'ratio', where the participant 
+        with maximum ratio will be awarded the 1st position and so on.`,
+    ],
+    contacts: [
+      "Durgesh Dayal - 7879385886",
+      "Shubham Goyal - 8824888520",
+      "Harsh - 8081872670",
+      "Shrutanten - 7014945978",
+    ],
     src: "../../public/imgs/events/power-lifting.jpg",
   },
   short_pitch_cricket: {
@@ -169,12 +198,37 @@ const rules = {
       "There is a particular technique that needs to be applied while playing this game, if not then there will be a foul which can call in for disqualifications. For e.g. lowering your elbow below the knee level.",
       "while pulling the rope is considered to be a foul and is called 'locking' Touching the ground for a longer period of time is also considered as a foul.",
     ],
-    contacts: ["Soumyadeep Sen -8918349604", "Aditya Beniwal - 9783468751"],
+    contacts: [
+      "Aditya Beniwal - 9783468751",
+      "Soumyadeep Sen -8918349604",
+      "Manvendra Rajpoot - 6387300553",
+    ],
     src: "../../public/imgs/events/tug_of_war.jpg",
   },
   valorant: {
-    rules: [],
-    contacts: [],
+    rules: [
+      `Each team must have a minimum of five (5) players eligible to play for each match.`,
+      `Players must bring their own earphones/headphones.`,
+      `Players may bring their own laptops, mouse, keyboard etc if they want.`,
+      `All matches will be knockout matches except the semifinals and Final. The semifinals and Final will be "Best of 3" Round matches.`,
+      `For knockout matches maps will be decided by toss.`,
+      `Home/Away will be designated by toss....the winner team will be designated as the "home Team".`,
+      `Best of 3:
+        — Home Team bans a map; 
+        — Away Team bans a map; 
+        — Home Team bans a map;
+        — Home Team picks Map 1, Away Team chooses Map side;
+        — Away team picks Map 2, Home Team chooses Map 2 side;
+        — The team with a better round differentiaI through two maps chooses Map 3 side.`,
+
+      `Both teams may agree to restart a map prior to Round 1 beginning if the latency is unreasonable for the server selected.`,
+      `Any team member who is displaying excessive toxic behaviour during matches may also be disqualified at the discretion of a tournament administrator.`,
+    ],
+    contacts: [
+      "Neel Diganta Bhadra - 9674616763",
+      "Soumya Roy - 8777040468",
+      "Purbayan Sarkar - 8290411823",
+    ],
     src: "../../public/imgs/events/valorant.jpg",
   },
   vollyball: {

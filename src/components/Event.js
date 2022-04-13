@@ -38,7 +38,7 @@ const Event = ({ event }) => {
           <p className={styles.card__description}>
             Entry Fee :&nbsp;&nbsp;{event.entryFee}
             <br />
-            Team Size :&nbsp;&nbsp;{event.entryFee}
+            Team Size :&nbsp;&nbsp;{event.teamSize}
             <br />
             <Link to={`/events/${param}`}>Other Details</Link>
           </p>

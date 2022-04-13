@@ -47,16 +47,16 @@ const Home = () => {
           </div>
           <div className="col-md-8 about-hall">
             <p>
-              The Boarders are called Wolves, jokingly. This is the Hall, most
-              glamourous, where the most extrovert would go.It is not the Hostel
-              for the studious type! People who had left a mark or wanted to
-              make a mark preferred this hostel. It has an aura about it an is
-              located right across the Oval ground. It used to be an expensive
-              Hostel, so far as food bills are concerned. During College
-              Re-unions, one could find the whole front of the Hostel would get
-              illuminated with the colorful bulbs to look great from a
-              distance.Here, final and pre-final years' Students are allowed to
-              stay.
+              Wolfenden hall is one of the most unique Halls of IIESTS. Situated
+              Across the Oval Ground and having a different construction with
+              respect to other halls, it always has stood out from the rest.
+              Allotted to Final and Pre Final Year UG students, Wolfenden Hall
+              has always been a glamorous Hall with many events throughout the
+              academic year. The Hall is beautifully Decorated during all these
+              events and one can find all boarders working tirelessly to ensure
+              that these events are a success. Even after graduating, one never
+              forgets his stay here and that legacy is more than visible during
+              the annual reunion of Boarders of Wolfenden Hall.
             </p>
           </div>
         </div>
