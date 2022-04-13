@@ -135,8 +135,20 @@ const rules = {
     src: "../../public/imgs/events/power-lifting.jpg",
   },
   short_pitch_cricket: {
-    rules: [],
-    contacts: [],
+    rules: [
+      `Team will consist of 8 players (7+1).`,
+      `All the matches will be of 5 overs.`,
+      `Every team should give their squad list to their respective JMCR.`,
+      `No player can play for two different teams.`,
+      `A maximum of 3 players can be changed in a team throughout the tournament.`,
+      `Batting and bowling rules will be informed before the match.`,
+      `In case of any dispute the umpire's decision shall be final.`,
+    ],
+    contacts: [
+      "Ankit majhi - 8016554262",
+      "Samarth khanna - 9810102750",
+      "Mayank kumar- 9928966956",
+    ],
     src: "../../public/imgs/events/short-pitch-cricket.jpg",
   },
   strong_man: {
