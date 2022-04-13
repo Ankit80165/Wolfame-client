@@ -15,11 +15,11 @@ const CONTACTS = [
   },
   {
     name: "Saptarshi Mukherjee",
-    instaLink: "",
-    facebookLink: "",
+    instaLink: "https://www.instagram.com/na/",
+    facebookLink: "https://www.facebook.com/na/",
     mailId: "saptarishi.m@gmail.com",
     phone: "7063495175",
-    image: "imgs/members/",
+    image: "imgs/members/saptarishimjpg.jpg",
   },
   {
     name: "Manvendra Rajpoot",
@@ -34,16 +34,8 @@ const CONTACTS = [
     instaLink: "https://www.instagram.com/na/",
     facebookLink: "https://m.facebook.com/na/",
     mailId: "",
-    phone: "",
-    image: "imgs/members/",
-  },
-  {
-    name: "Anindya Sen",
-    instaLink: "https://www.instagram.com/a.sen_sational/",
-    facebookLink: "https://www.facebook.com/aanindyasen",
-    mailId: "iamanindyasen@gmail.com",
-    phone: "7365876078",
-    image: "imgs/members/AnindyaSen.jpeg",
+    phone: "9783468751",
+    image: "imgs/members/beniwal.jpg",
   },
   {
     name: "Shaurya Rohilla",
@@ -70,6 +62,14 @@ const CONTACTS = [
     image: "imgs/members/GaurabMondal.jpg",
   },
   {
+    name: "Anindya Sen",
+    instaLink: "https://www.instagram.com/a.sen_sational/",
+    facebookLink: "https://www.facebook.com/aanindyasen",
+    mailId: "iamanindyasen@gmail.com",
+    phone: "7365876078",
+    image: "imgs/members/AnindyaSen.jpeg",
+  },
+  {
     name: "Samarth Khanna",
     instaLink: "https://www.instagram.com/na/",
     facebookLink: "https://www.facebook.com/na/",
@@ -83,7 +83,7 @@ const CONTACTS = [
     facebookLink: "https://www.facebook.com/na/",
     mailId: "",
     phone: "",
-    image: "imgs/members/",
+    image: "imgs/members/ayanava.jpg",
   },
   {
     name: "Anubhab Saha",
@@ -110,6 +110,22 @@ const CONTACTS = [
     image: "imgs/members/DEBARUN_NATH.jpg",
   },
   {
+    name: "Sayak Chowdhury",
+    instaLink: "https://www.instagram.com/na/",
+    facebookLink: "https://m.facebook.com/na/",
+    mailId: "",
+    phone: "",
+    image: "imgs/members/sayakc.jpg",
+  },
+  {
+    name: "	Nishant Shekhu",
+    instaLink: "https://www.instagram.com/nishant_shekhu/",
+    facebookLink: "https://www.facebook.com/shauryarohilla",
+    mailId: "nishantshekhu31869@gmail.com",
+    phone: "7023284232",
+    image: "imgs/members/NishantS.jpg",
+  },
+  {
     name: "Purbayan Sarkar",
     instaLink: "https://www.instagram.com/thehappywine/",
     facebookLink: "https://m.facebook.com/100006874681661/",
@@ -124,6 +140,14 @@ const CONTACTS = [
     mailId: "ssengupta742@gmail.com",
     phone: "8250564473",
     image: "imgs/members/souviksengupta.jpeg",
+  },
+  {
+    name: "ALLAN DAVIS",
+    instaLink: "https://www.instagram.com/_im.allan_/",
+    facebookLink: "https://www.facebook.com/aanindyasen",
+    mailId: "allandavis248@gmail.com",
+    phone: "9330671577",
+    image: "imgs/members/AllanDavis.jpg",
   },
   {
     name: "Harsh Gupta",
@@ -148,22 +172,6 @@ const CONTACTS = [
     mailId: "510519048.shrutanten@students.iiests.ac.in",
     phone: "7014945978",
     image: "imgs/members/Shrutanten.jpg",
-  },
-  {
-    name: "ALLAN DAVIS",
-    instaLink: "https://www.instagram.com/_im.allan_/",
-    facebookLink: "https://www.facebook.com/aanindyasen",
-    mailId: "allandavis248@gmail.com",
-    phone: "9330671577",
-    image: "imgs/members/AllanDavis.jpg",
-  },
-  {
-    name: "	Nishant Shekhu",
-    instaLink: "https://www.instagram.com/nishant_shekhu/",
-    facebookLink: "https://www.facebook.com/shauryarohilla",
-    mailId: "nishantshekhu31869@gmail.com",
-    phone: "7023284232",
-    image: "imgs/members/NishantS.jpg",
   },
 ];
 
